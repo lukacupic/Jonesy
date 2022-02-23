@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Jonesy | An Indiana Jones Generator</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Luka Čupić" />
+
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/cursor.css" />
+	</head>
+
+	<body onload="loadFile()" class="noselect">
+		<div class="top">
+			JONESY
+			<div class="desc">An Indiana Jones Generator</div>
+		</div>
+
+		<div class="center">
+			<div id="phrase" class="phrase center-top cursor">|</div>
+			<div>
+				<button id="button" type="button" class="button" onclick="generate(); changeContent()">
+					Click to generate
+				</button>
+			</div>
+		</div>
+
+		<div class="bottom">
+			Made by <a href="https://github.com/lukacupic" target="_blank" rel="noopener noreferrer">Luka</a> with ❤
+		</div>
+
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
