@@ -18,7 +18,7 @@ body {
 	font-family: "Helvetica-Normal", sans-serif;
 	color: white;
 	white-space: nowrap;
-	color: linear-gradient(90deg, rgba(198, 0, 0, 1) 0%, rgba(247, 150, 13, 1) 35%, rgba(210, 210, 18, 1) 100%);
+	letter-spacing: 0.2rem;
 }
 
 body::after {
@@ -36,8 +36,6 @@ body::after {
 
 div.top {
 	font-family: "Adventure";
-	font-weight: bold;
-	font-size: 60px;
 	position: absolute;
 	top: 15%;
 	left: 50%;
@@ -45,13 +43,24 @@ div.top {
 	text-align: center;
 }
 
+div.title {
+	font-size: 90px;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	background-image: linear-gradient(180deg, #bd3200, #fff52d);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 div.desc {
 	font-size: 35px;
 	text-align: center;
-	margin-top: 0.5rem;
+	color: #fff52d;
 }
 
 div.center {
+	width: 100%;
 	position: absolute;
 	z-index: 999999;
 	top: 50%;
@@ -64,16 +73,22 @@ div.center {
 
 div.phrase {
 	font-family: "Adventure";
+	width: 100%;
 	font-weight: bold;
 	font-size: 50px;
 	margin-bottom: 1.75rem;
+
+	background-image: linear-gradient(180deg, #bd3200, #fff52d);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .button {
 	font-family: "Adventure";
 	font-size: 25px;
 	background-color: transparent;
-	color: #ffffff94;
+	color: #fff52d;
 	border-radius: 10px;
 	border: 1px solid;
 	display: inline-block;
@@ -83,11 +98,12 @@ div.phrase {
 }
 
 .button:hover {
-	color: #ffffffc9;
+	color: #bd3200;
 }
 
 .button:active {
-	color: #ffffff;
+	color: #fff52d;
+
 	position: relative;
 }
 
@@ -103,6 +119,7 @@ div.bottom {
 	left: 50%;
 	transform: translate(-50%, -20%);
 	text-align: center;
+	color: #fff52d;
 }
 
 a {
