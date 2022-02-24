@@ -36,6 +36,8 @@ body::after {
 
 div.top {
 	font-family: "Adventure";
+	margin-top: 0;
+	padding-top: 0;
 	position: absolute;
 	top: 15%;
 	left: 50%;
@@ -47,7 +49,7 @@ div.title {
 	font-size: 90px;
 	font-weight: bold;
 	margin-bottom: 1rem;
-	background-image: linear-gradient(180deg, #bd3200, #fff52d);
+	background-image: linear-gradient(180deg, #ff4400, #fff52d);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -76,9 +78,7 @@ div.phrase {
 	width: 100%;
 	font-weight: bold;
 	font-size: 50px;
-	margin-bottom: 1.75rem;
-
-	background-image: linear-gradient(180deg, #bd3200, #fff52d);
+	background-image: linear-gradient(180deg, #ff4400, #fff52d);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -95,6 +95,7 @@ div.phrase {
 	cursor: pointer;
 	padding: 5px 20px;
 	text-decoration: none;
+	margin-top: 10px;
 }
 
 .button:hover {
@@ -113,7 +114,7 @@ div.phrase {
 
 div.bottom {
 	font-family: "Adventure";
-	font-size: 25px;
+	font-size: 22px;
 	position: absolute;
 	bottom: 0.5rem;
 	left: 50%;
