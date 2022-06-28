@@ -1,9 +1,7 @@
-# Droidio — A Star Wars Phrase Generator
-Droidio is a simple but slick web tool for generating randomized phrases from the vast Star Wars universe.
+# Jonesy — An Indiana Jones Phrase Generator
+Jonesy is a web tool for generating randomized phrases from the Indiana Jones world.
 
-Ideal for Pictionary-like games, or just random geeky fun.
+Currently live at: [jonesyyy.netlify.app](https://jonesyyy.netlify.app/)
 
-Currently live at: [droidio.netlify.app](https://droidio.netlify.app/)
-
-![alt text](https://lukacupic.github.io/backgrounds/Droidio.jpg)
+![alt text](https://lukacupic.github.io/assets/img/projects/Jonesy.jpg)
 
